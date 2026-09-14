@@ -193,3 +193,32 @@ body {
   font-size: 14px;
   line-height: 94.5%;
 }
+
+.footer{
+  background: var(--theme-color);
+  height: 140px;
+  margin-top: 44px;
+}
+
+.footer__block{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.footer__block>h4{
+  color: #fff;
+  font-size: 50px;
+}
+
+.footer__block>ul{
+  list-style: none;
+}
+
+.footer__block>ul>li>a{
+  text-decoration: none;
+  color: #fff;
+  margin-top: 15px;
+  display: block;
+}
